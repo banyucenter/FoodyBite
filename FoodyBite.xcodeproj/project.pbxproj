@@ -12,6 +12,7 @@
 		2818F1E022F852E100B5FD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2818F1DE22F852E100B5FD19 /* Main.storyboard */; };
 		2818F1E222F852E200B5FD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2818F1E122F852E200B5FD19 /* Assets.xcassets */; };
 		2818F1E522F852E200B5FD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2818F1E322F852E200B5FD19 /* LaunchScreen.storyboard */; };
+		2818F21C22F8596500B5FD19 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2818F21B22F8596500B5FD19 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2818F1E122F852E200B5FD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2818F1E422F852E200B5FD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2818F1E622F852E200B5FD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2818F21B22F8596500B5FD19 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		2818F1D922F852E100B5FD19 /* FoodyBite */ = {
 			isa = PBXGroup;
 			children = (
+				2818F1FC22F8580400B5FD19 /* Controller */,
+				2818F1FB22F857F300B5FD19 /* Model */,
 				2818F1DA22F852E100B5FD19 /* AppDelegate.swift */,
-				2818F1DC22F852E100B5FD19 /* ViewController.swift */,
-				2818F1DE22F852E100B5FD19 /* Main.storyboard */,
+				2818F1EE22F856D300B5FD19 /* View */,
 				2818F1E122F852E200B5FD19 /* Assets.xcassets */,
-				2818F1E322F852E200B5FD19 /* LaunchScreen.storyboard */,
 				2818F1E622F852E200B5FD19 /* Info.plist */,
 			);
 			path = FoodyBite;
+			sourceTree = "<group>";
+		};
+		2818F1EE22F856D300B5FD19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2818F1E322F852E200B5FD19 /* LaunchScreen.storyboard */,
+				2818F1DC22F852E100B5FD19 /* ViewController.swift */,
+				2818F1DE22F852E100B5FD19 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2818F1FB22F857F300B5FD19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2818F21B22F8596500B5FD19 /* Login.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2818F1FC22F8580400B5FD19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2818F21C22F8596500B5FD19 /* Login.swift in Sources */,
 				2818F1DD22F852E100B5FD19 /* ViewController.swift in Sources */,
 				2818F1DB22F852E100B5FD19 /* AppDelegate.swift in Sources */,
 			);
@@ -289,10 +317,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.banyucenter.FoodyBite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.banyucenter.foodybite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,10 +335,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.banyucenter.FoodyBite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.banyucenter.foodybite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
