@@ -13,6 +13,7 @@
 		2818F1E222F852E200B5FD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2818F1E122F852E200B5FD19 /* Assets.xcassets */; };
 		2818F1E522F852E200B5FD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2818F1E322F852E200B5FD19 /* LaunchScreen.storyboard */; };
 		2818F21C22F8596500B5FD19 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2818F21B22F8596500B5FD19 /* Login.swift */; };
+		2818F21E22F8685D00B5FD19 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2818F21D22F8685D00B5FD19 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2818F1E422F852E200B5FD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2818F1E622F852E200B5FD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2818F21B22F8596500B5FD19 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		2818F21D22F8685D00B5FD19 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				2818F1E322F852E200B5FD19 /* LaunchScreen.storyboard */,
-				2818F1DC22F852E100B5FD19 /* ViewController.swift */,
 				2818F1DE22F852E100B5FD19 /* Main.storyboard */,
 			);
 			name = View;
@@ -87,6 +88,8 @@
 		2818F1FC22F8580400B5FD19 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2818F1DC22F852E100B5FD19 /* ViewController.swift */,
+				2818F21D22F8685D00B5FD19 /* LoginController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2818F21C22F8596500B5FD19 /* Login.swift in Sources */,
+				2818F21E22F8685D00B5FD19 /* LoginController.swift in Sources */,
 				2818F1DD22F852E100B5FD19 /* ViewController.swift in Sources */,
 				2818F1DB22F852E100B5FD19 /* AppDelegate.swift in Sources */,
 			);
